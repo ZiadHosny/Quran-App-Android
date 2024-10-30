@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "app.vercel.quran_app_z.app-mergeDebugResources-5:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ziad Hosny\\.gradle\\caches\\8.8\\transforms\\9f8785dc812bff57d386f67b7bd1fa85\\transformed\\core-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

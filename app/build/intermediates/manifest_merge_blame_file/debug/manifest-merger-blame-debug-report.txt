@@ -1,0 +1,297 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    Copyright 2019 Google Inc. All Rights Reserved.
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9         http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<!--
+18 The "package" attribute is rewritten by the Gradle build with the value of applicationId.
+19     It is still required here, as it is used to derive paths, for instance when referring
+20     to an Activity by ".MyActivity" instead of the full name. If more Activities are added to the
+21     application, the package attribute will need to reflect the correct path in order to use
+22     the abbreviated format.
+23-->
+24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+25    package="app.vercel.quran_app_z"
+26    android:versionCode="2"
+27    android:versionName="1.0" >
+28
+29    <uses-sdk
+30        android:minSdkVersion="19"
+31        android:targetSdkVersion="35" />
+32
+33    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+33-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:26:9-80
+33-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:26:26-78
+34
+35    <queries>
+35-->[com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] C:\Users\Ziad Hosny\.gradle\caches\8.8\transforms\3b7ebebec6bcd0f4bfe1f097e648b9fc\transformed\androidbrowserhelper-2.5.0\AndroidManifest.xml:26:5-34:15
+36        <intent>
+36-->[com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] C:\Users\Ziad Hosny\.gradle\caches\8.8\transforms\3b7ebebec6bcd0f4bfe1f097e648b9fc\transformed\androidbrowserhelper-2.5.0\AndroidManifest.xml:27:9-33:18
+37            <action android:name="android.intent.action.VIEW" />
+37-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:140:17-68
+37-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:140:25-66
+38
+39            <category android:name="android.intent.category.BROWSABLE" />
+39-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:142:17-77
+39-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:142:27-75
+40
+41            <data android:scheme="https" />
+41-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:143:17-144:54
+41-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:143:23-45
+42        </intent>
+43    </queries>
+44
+45    <application
+45-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:35:5-187:19
+46        android:name="app.vercel.quran_app_z.Application"
+46-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:36:9-35
+47        android:allowBackup="true"
+47-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:37:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.1.0] C:\Users\Ziad Hosny\.gradle\caches\8.8\transforms\9f8785dc812bff57d386f67b7bd1fa85\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+49        android:debuggable="true"
+50        android:extractNativeLibs="true"
+51        android:icon="@mipmap/ic_launcher"
+51-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:38:9-43
+52        android:label="@string/appName"
+52-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:39:9-40
+53        android:manageSpaceActivity="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
+53-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:41:9-105
+54        android:supportsRtl="true"
+54-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:43:9-35
+55        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+55-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:44:9-68
+56        <meta-data
+56-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:46:9-48:58
+57            android:name="asset_statements"
+57-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:47:13-44
+58            android:resource="@string/assetStatements" />
+58-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:48:13-55
+59        <meta-data
+59-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:51:13-53:58
+60            android:name="web_manifest_url"
+60-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:52:17-48
+61            android:value="@string/webManifestUrl" />
+61-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:53:17-55
+62        <meta-data
+62-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:56:9-58:52
+63            android:name="twa_generator"
+63-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:57:13-41
+64            android:value="@string/generatorApp" />
+64-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:58:13-49
+65
+66        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity" >
+66-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:65:13-69:24
+66-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:65:23-104
+67            <meta-data
+67-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:66:13-68:53
+68                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
+68-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:67:17-83
+69                android:value="@string/launchUrl" />
+69-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:68:17-50
+70        </activity>
+71        <activity
+71-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:72:9-148:20
+72            android:name="app.vercel.quran_app_z.LauncherActivity"
+72-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:72:19-50
+73            android:alwaysRetainTaskState="true"
+73-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:73:13-49
+74            android:exported="true"
+74-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:75:13-36
+75            android:label="@string/launcherName" >
+75-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:74:13-49
+76            <meta-data
+76-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:76:13-77:53
+77                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+77-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:76:24-85
+78                android:value="@string/launchUrl" />
+78-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:77:17-50
+79            <meta-data
+79-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:79:13-81:58
+80                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+80-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:80:17-83
+81                android:resource="@color/colorPrimary" />
+81-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:81:17-55
+82            <meta-data
+82-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:83:13-85:62
+83                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
+83-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:84:17-88
+84                android:resource="@color/colorPrimaryDark" />
+84-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:85:17-59
+85            <meta-data
+85-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:87:13-89:61
+86                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+86-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:88:17-87
+87                android:resource="@color/navigationColor" />
+87-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:89:17-58
+88            <meta-data
+88-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:91:13-93:65
+89                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+89-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:92:17-92
+90                android:resource="@color/navigationColorDark" />
+90-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:93:17-62
+91            <meta-data
+91-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:95:13-97:68
+92                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
+92-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:96:17-84
+93                android:resource="@color/navigationDividerColor" />
+93-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:97:17-65
+94            <meta-data
+94-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:99:13-101:72
+95                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
+95-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:100:17-89
+96                android:resource="@color/navigationDividerColorDark" />
+96-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:101:17-69
+97            <meta-data
+97-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:103:13-104:54
+98                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
+98-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:103:24-95
+99                android:resource="@drawable/splash" />
+99-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:104:17-52
+100            <meta-data
+100-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:106:13-107:60
+101                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
+101-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:106:24-104
+102                android:resource="@color/backgroundColor" />
+102-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:107:17-58
+103            <meta-data
+103-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:109:13-110:71
+104                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
+104-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:109:24-105
+105                android:value="@integer/splashScreenFadeOutDuration" />
+105-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:110:17-69
+106            <meta-data
+106-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:112:13-113:60
+107                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
+107-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:112:24-97
+108                android:value="@string/providerAuthority" />
+108-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:113:17-58
+109            <meta-data
+109-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:115:13-97
+110                android:name="android.app.shortcuts"
+110-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:115:24-60
+111                android:resource="@xml/shortcuts" />
+111-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:115:61-94
+112            <meta-data
+112-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:117:13-118:56
+113                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+113-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:117:24-91
+114                android:value="@string/fallbackType" />
+114-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:118:17-53
+115            <meta-data
+115-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:123:13-124:45
+116                android:name="android.support.customtabs.trusted.DISPLAY_MODE"
+116-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:123:24-86
+117                android:value="immersive" />
+117-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:124:17-42
+118            <meta-data
+118-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:127:13-128:54
+119                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
+119-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:127:24-92
+120                android:value="@string/orientation" />
+120-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:128:17-52
+121
+122            <intent-filter>
+122-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:134:13-137:29
+123                <action android:name="android.intent.action.MAIN" />
+123-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:135:17-69
+123-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:135:25-66
+124
+125                <category android:name="android.intent.category.LAUNCHER" />
+125-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:136:17-77
+125-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:136:27-74
+126            </intent-filter>
+127            <intent-filter android:autoVerify="true" >
+127-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:139:13-145:29
+127-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:139:28-53
+128                <action android:name="android.intent.action.VIEW" />
+128-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:140:17-68
+128-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:140:25-66
+129
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:141:17-76
+130-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:141:27-73
+131                <category android:name="android.intent.category.BROWSABLE" />
+131-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:142:17-77
+131-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:142:27-75
+132
+133                <data
+133-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:143:17-144:54
+134                    android:host="@string/hostName"
+134-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:144:21-52
+135                    android:scheme="https" />
+135-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:143:23-45
+136            </intent-filter>
+137        </activity>
+138        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
+138-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:150:9-90
+138-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:150:19-87
+139        <activity
+139-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:152:9-153:62
+140            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
+140-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:152:19-97
+141            android:configChanges="orientation|screenSize" />
+141-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:153:13-59
+142
+143        <provider
+143-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:155:9-163:20
+144            android:name="androidx.core.content.FileProvider"
+144-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:156:13-62
+145            android:authorities="@string/providerAuthority"
+145-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:157:13-60
+146            android:exported="false"
+146-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:159:13-37
+147            android:grantUriPermissions="true" >
+147-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:158:13-47
+148            <meta-data
+148-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:160:13-162:53
+149                android:name="android.support.FILE_PROVIDER_PATHS"
+149-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:161:17-67
+150                android:resource="@xml/filepaths" />
+150-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:162:17-50
+151        </provider>
+152
+153        <service
+153-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:165:9-180:19
+154            android:name="app.vercel.quran_app_z.DelegationService"
+154-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:166:13-46
+155            android:enabled="@bool/enableNotification"
+155-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:167:13-55
+156            android:exported="@bool/enableNotification" >
+156-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:168:13-56
+157            <meta-data
+157-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:171:17-173:73
+158                android:name="android.support.customtabs.trusted.SMALL_ICON"
+158-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:172:21-81
+159                android:resource="@drawable/ic_notification_icon" />
+159-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:173:21-70
+160
+161            <intent-filter>
+161-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:176:13-179:29
+162                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+162-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:177:17-105
+162-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:177:25-103
+163
+164                <category android:name="android.intent.category.DEFAULT" />
+164-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:141:17-76
+164-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:141:27-73
+165            </intent-filter>
+166        </service>
+167
+168        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
+168-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:183:13-118
+168-->E:\Projects\Android\Quran-App\app\src\main\AndroidManifest.xml:183:23-115
+169    </application>
+170
+171</manifest>

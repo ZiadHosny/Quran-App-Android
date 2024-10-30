@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "app.vercel.quran_app_z.app-mergeReleaseResources-5:/values-ko/values-ko.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ziad Hosny\\.gradle\\caches\\8.8\\transforms\\a2e9b1455a07dfa97a9d8e308a8198a2\\transformed\\browser-1.4.0\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,141,234,337",
+                        "endColumns": "85,92,102,93",
+                        "endOffsets": "136,229,332,426"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ziad Hosny\\.gradle\\caches\\8.8\\transforms\\9f8785dc812bff57d386f67b7bd1fa85\\transformed\\core-1.1.0\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "431",
+                        "endColumns": "100",
+                        "endOffsets": "527"
+                    }
+                }
+            ]
+        }
+    ]
+}

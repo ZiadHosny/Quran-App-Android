@@ -1,0 +1,10 @@
+app.vercel.quran_app_z.app-androidbrowserhelper-2.5.0-0 C:\Users\Ziad Hosny\.gradle\caches\8.8\transforms\3b7ebebec6bcd0f4bfe1f097e648b9fc\transformed\androidbrowserhelper-2.5.0\res
+app.vercel.quran_app_z.app-core-1.1.0-1 C:\Users\Ziad Hosny\.gradle\caches\8.8\transforms\9f8785dc812bff57d386f67b7bd1fa85\transformed\core-1.1.0\res
+app.vercel.quran_app_z.app-browser-1.4.0-2 C:\Users\Ziad Hosny\.gradle\caches\8.8\transforms\a2e9b1455a07dfa97a9d8e308a8198a2\transformed\browser-1.4.0\res
+app.vercel.quran_app_z.app-pngs-3 E:\Projects\Android\Quran-App\app\build\generated\res\pngs\release
+app.vercel.quran_app_z.app-resValues-4 E:\Projects\Android\Quran-App\app\build\generated\res\resValues\release
+app.vercel.quran_app_z.app-packageReleaseResources-5 E:\Projects\Android\Quran-App\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+app.vercel.quran_app_z.app-packageReleaseResources-6 E:\Projects\Android\Quran-App\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+app.vercel.quran_app_z.app-merged_res-7 E:\Projects\Android\Quran-App\app\build\intermediates\merged_res\release
+app.vercel.quran_app_z.app-main-8 E:\Projects\Android\Quran-App\app\src\main\res
+app.vercel.quran_app_z.app-release-9 E:\Projects\Android\Quran-App\app\src\release\res
